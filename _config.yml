@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Some things about IT
+email: emilianocarvalho.dev@gmail.com
+description: "Neste blog estarão registradas anotações, tutoriais e dicas sobre tecnologia."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "emilianocarvalho.github.io" # the base hostname & protocol for your site
+twitter_username: EmilianoCarval
+github_username:  emilianocarvalho
+
+# Build settings
+markdown: kramdown
+# permalink: /:categories/:year/:month/:day/:title
+# permalink: /:year/:month/:day/:title
+permalink: /:title
