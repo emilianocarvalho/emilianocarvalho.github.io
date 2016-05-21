@@ -11,10 +11,10 @@ layout: default
   {{ content }}
   <div id="disqus_thread"></div>
   <script>
-  // var disqus_config = function () {
-  //   this.page.url = '{{ site.url }}{{ site.baseurl }}{{ page.url }}';
-  //   this.page.identifier = '{{ page.url }}';
-  // };
+  var disqus_config = function () {
+    this.page.url = '{{ site.url }}{{ site.baseurl }}{{ page.url }}';
+    this.page.identifier = '{{ page.url }}';
+  };
   (function() { // DON'T EDIT BELOW THIS LINE
   var d = document, s = d.createElement('script');
 
@@ -24,5 +24,5 @@ layout: default
   (d.head || d.body).appendChild(s);
 })();
 </script>
-</article>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</article>
