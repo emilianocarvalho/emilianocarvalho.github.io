@@ -4,7 +4,7 @@ title: "Disqus não conecta no GitHub Pages"
 date: "2016-05-21 20:22:37 -0300"
 ---
 
-#Estou recebendo a mensagem "Não foi possível carregar Disqus."
+## Estou recebendo a mensagem "Não foi possível carregar Disqus."
 
 Já havia um tempo que tinha criado minha GitHub Pages para montar com Jekyll, mas não tinha organizado ainda a estrutura. Estava pensando em usar o Semantic.UI ao invés do já explorado Bootstrap, essas coisas mas como estava no final de curso deixei de lado.
 
@@ -32,9 +32,11 @@ var disqus_config = function () {
 
 não passou a reconhecer, apresentando a mensagem acima "We were unable to load Disqus."
 
+## Como resolví
+
 Ao deixar as variáveis comentadas o Disqus carrega, mas ao você deixar seu comentário ele não referencia corretamente o post que você comentou, ou seja, perdemos o link para este post.
 
-A solução foi adicionar o protocolo `http:` ao meu endereço do GitHub Page.
+A solução foi adicionar o protocolo `http:` ao meu endereço do GitHub Page, no arquivo de configurações `_config.yml`.
 
 url: "http://emilianocarvalho.github.io"
 
