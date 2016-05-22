@@ -4,8 +4,7 @@ title: Contact Us
 permalink: /contact/
 ---
 
-Sou Emiliano Carvalho, graduando em Análise e Desenvolvimento de Sistemas pela Estácio / Idez, experiência com Microsiga / Totvs, desenvolvimento usando tecnologia proprietária. Desenvolvimento web Java JSP, Servlet's, JPA Hibernate, VRaptor 4, Jasper Report. Dispositivos móveis Android, visão sobre Phonegap, linguagens híbridas e nativas.
-Atualmente trabalho exerce a função de Subgerente de TI no Procon Estadual da Paraíba utilizando CMS Plone, e desenvolvendo soluções web do orgão com uma visão de gestão pública de processos, visando criar um sistema automatizado e integrado para os setores do orgão.
+Sou Emiliano Carvalho, atualmente trabalho exerco a função de Subgerente de TI no Procon-PB utilizando diversas tecnologias, procurando criar e adotar práticas eficiêntes que melhorem a produtividade e trabalho da equipe de forma a tornar as operações mais transparentes ao setores do orgão. Já trabalhei com desenvolvimento ADVPL, na Totvs (Microsiga) com experiências em implantações em grandes empresas. Tenho focado no desenvolvimento web com Java, Servlet's, JSP, JPA, Hibernate e VRaptor com estudo em SOA, Webservices, Restfull disponibilizando serviços através de plataformas móveis.
 
 Emiliano Carvalho
 emilianocarvalho.dev@gmail.com
