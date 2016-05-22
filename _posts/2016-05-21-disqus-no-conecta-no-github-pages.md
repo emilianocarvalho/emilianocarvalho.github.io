@@ -11,7 +11,7 @@ Bem, de passagem pelo Facebook encontrei um compartilhamento de um curso do [Wil
 
 Depois de tudo configurado, versionado no github, finalmente estava lá. Github Pages configurado.
 
-Solamente um detalhe. No curso do [Willian Justen][1] ele mostra como adicionar o Disqus, até aí tudo bem, sem definir as variáveis url de nossa página e o identificador de página, como no exemplo abaixo
+Solamente um detalhe. No curso do [Willian Justen][1] ele mostra como adicionar o Disqus, até aí tudo bem, sem definir as variáveis url de nossa página e o identificador de página, como no exemplo abaixo: (disponibilizada pelo Disqus para que você coloque no seu site, que vem comentadas)
 
 {% highlight %}
 var disqus_config = function () {
@@ -20,7 +20,7 @@ var disqus_config = function () {
 };
 {% endhighlight %}
 
-Mas ao definir, no caso, para:
+Mas ao definir com as variáveis do nosso:
 {% highlight %}
 var disqus_config = function () {
   this.page.url = `'{{ site.url }}{{ site.baseurl }}{{ page.url }}'`;
@@ -30,6 +30,13 @@ var disqus_config = function () {
 
 não passou a reconhecer, apresentando a mensagem acima "We were unable to load Disqus."
 
+Ao deixar as variáveis comentadas os comentários do Disqus aparecem, mas ao você deixar seu comentário ele não referencia corretamente o post que você comentou, ou seja, perdemos o link para este post.
+
+A solução foi adicionar o protocolo `http:` ao meu endereço do GitHub Page.
+
+url: "`http:`//emilianocarvalho.github.io"
+
+Pronto, Github Page criada com Jekyll e Disqus ativo, vinculado a minha conta.
 
 
 [1]: http://willianjusten.teachable.com/courses/criando-sites-estaticos-com-jekyll        "Willian Justen"
