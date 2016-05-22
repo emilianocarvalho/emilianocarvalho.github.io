@@ -40,5 +40,4 @@ url: "http://emilianocarvalho.github.io"
 
 Pronto, Github Page criada com Jekyll e Disqus ativo, vinculado a minha conta.
 
-
-[1]: http://willianjusten.teachable.com/courses/criando-sites-estaticos-com-jekyll        "Willian Justen"
+[1]: http://willianjusten.teachable.com/courses/criando-sites-estaticos-com-jekyll "Willian Justen"
