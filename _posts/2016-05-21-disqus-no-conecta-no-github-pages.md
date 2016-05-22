@@ -32,7 +32,7 @@ var disqus_config = function () {
 
 não passou a reconhecer, apresentando a mensagem acima "We were unable to load Disqus."
 
-## Como resolví
+### Como resolví
 
 Ao deixar as variáveis comentadas o Disqus carrega, mas ao você deixar seu comentário ele não referencia corretamente o post que você comentou, ou seja, perdemos o link para este post.
 
