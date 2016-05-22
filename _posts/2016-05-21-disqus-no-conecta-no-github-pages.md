@@ -4,7 +4,7 @@ title: "Disqus não conecta no GitHub Pages"
 date: "2016-05-21 20:22:37 -0300"
 ---
 
-## Estou recebendo a mensagem "Não foi possível carregar Disqus."
+### Estou recebendo a mensagem "Não foi possível carregar Disqus."
 
 Já havia um tempo que tinha criado minha GitHub Pages para montar com Jekyll, mas não tinha organizado ainda a estrutura. Estava pensando em usar o Semantic.UI ao invés do já explorado Bootstrap, essas coisas mas como estava no final de curso deixei de lado.
 
