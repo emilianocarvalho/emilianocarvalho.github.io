@@ -25,7 +25,7 @@ Mas ao definir com as variáveis do Jekyll configuradas para minha Github Pages
 
 {% highlight javascript %}
 var disqus_config = function () {
-  this.page.url = "'{{ site.url }}{{ site.baseurl }}{{ page.url }}'";
+  this.page.url = '{{ site.url }}{{ site.baseurl }}{{ page.url }}';
   this.page.identifier = '{{ page.url }}';
 };
 {% endhighlight %}
