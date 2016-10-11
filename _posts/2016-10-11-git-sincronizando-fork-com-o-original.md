@@ -1,45 +1,31 @@
 ---
 layout: post
-title: "Git Sincronizando fork com o original"
+title: "Github Sincronizando fork com o original"
 date: "2016-10-11 23:33:37 -0300"
 ---
 
 ### Como sincronizar um fork com o projeto original
 
-Já havia um tempo que tinha criado minha GitHub Pages para montar com Jekyll, mas não tinha organizado ainda a estrutura. Estava pensando em usar o Semantic.UI ao invés do já explorado Bootstrap, essas coisas, mas como estava no final de curso deixei de lado.
+Antes de tudo, pra quem não esta familiarizado com o mundo open-source, [fork][1] é uma bifurcação de um projeto de software, quando disponibilizado pelo criador ou equipe de desenvolvimento que normalmente compartilham seu código fonte original. Você tem que fazer isso
 
-Bem, de passagem pelo Facebook encontrei um compartilhamento de um curso do [Willian Justen][1], excelente, vale a pena fazer, é gratuito, e como já estava na hora, por que não aproveitar o curso?
+A etapas para que se tenha automatizado esse processo de pelo seu projeto "copiado", podemos dizer dessa forma, seria entrar no github e no projeto que você deseja contribuir clicar no
 
-Depois de tudo configurado, versionado no github, finalmente estava lá. Github Pages perfeito.
+A seguir vejam os passos que devem ser seguidos para configurar bem o seu fork.
 
-Sólo un detalle. No curso do [Willian Justen][1] ele mostra como adicionar o Disqus, até aí tudo bem, sem definir as variáveis url de nossa página e o identificador de página, como no exemplo abaixo: (disponibilizada pelo Disqus para que você coloque no seu site, que vem comentadas)
 
-{% highlight javascript %}
-var disqus_config = function () {
-  this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-{% endhighlight %}
+### Configurar o remote
 
-Mas ao definir com as variáveis do Jekyll configuradas para minha Github Pages
+Primeiro faça o controle do projeto original.
 
-{% highlight javascript %}
-var disqus_config = function () {
-  this.page.url = '{{ site.url }}{{ site.baseurl }}{{ page.url }}';
-  this.page.identifier = '{{ page.url }}';
-};
-{% endhighlight %}
+Abra o terminal, o Git Bash (Windows).
 
-não passou a reconhecer, apresentando a mensagem acima "We were unable to load Disqus."
+Veja quais repositórios remotos você tem configurado.
+{% highlight}
+$ git remote -v
+origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
 
 ### Como resolver
 
-Ao deixar as variáveis comentadas o Disqus carrega, mas ao você deixar seu comentário ele não referencia corretamente o post que você comentou, ou seja, perdemos o link para este post.
 
-A solução foi adicionar o protocolo `http:` ao meu endereço do GitHub Page, no arquivo de configurações `_config.yml`.
-
-url: "http://emilianocarvalho.github.io"
-
-Pronto, Github Page criada com Jekyll e Disqus ativo, vinculado a minha conta.
-
-[1]: http://willianjusten.teachable.com/courses/criando-sites-estaticos-com-jekyll "Willian Justen"
+[1]: https://pt.wikipedia.org/wiki/Bifurca%C3%A7%C3%A3o "Fork"
