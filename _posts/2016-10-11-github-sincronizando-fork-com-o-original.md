@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Github Sincronizando fork com o original"
+title: "Github sincronizando fork com o original"
 date: "2016-10-11 23:33:37 -0300"
 ---
 
@@ -27,6 +27,7 @@ origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
 {% endhighlight %}
 
 ### Como resolver
+
 
 
 [1]: https://pt.wikipedia.org/wiki/Bifurca%C3%A7%C3%A3o "Fork"
