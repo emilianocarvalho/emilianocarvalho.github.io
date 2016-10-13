@@ -20,11 +20,11 @@ Primeiro faça o controle do projeto original.
 Abra o terminal, o Git Bash (Windows).
 
 Veja quais repositórios remotos você tem configurado.
-{% highlight %}
+{% highlight javascript %}
 $ git remote -v
 origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
 origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
-{% endhighlight %}
+{% endhighlight javascript %}
 
 ### Como resolver
 

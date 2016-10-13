@@ -13,20 +13,20 @@ Depois de tudo configurado, versionado no github, finalmente estava lá. Github 
 
 Solamente um detalhe. No curso do [Willian Justen][1] ele mostra como adicionar o Disqus, até aí tudo bem, sem definir as variáveis url de nossa página e o identificador de página, como no exemplo abaixo: (disponibilizada pelo Disqus para que você coloque no seu site, que vem comentadas)
 
-{% highlight %}
+{% highlight javascript %}
 var disqus_config = function () {
   this.page.url = `PAGE_URL`; // Replace PAGE_URL with your page's canonical URL variable
   this.page.identifier = `PAGE_IDENTIFIER`; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
-{% endhighlight %}
+{% endhighlight javascript %}
 
 Mas ao definir com as variáveis do nosso:
-{% highlight %}
+{% highlight javascript %}
 var disqus_config = function () {
   this.page.url = `'{{ site.url }}{{ site.baseurl }}{{ page.url }}'`;
   this.page.identifier = `'{{ page.url }}'`;
 };
-{% endhighlight %}
+{% endhighlight javascript %}
 
 não passou a reconhecer, apresentando a mensagem acima "We were unable to load Disqus."
 
