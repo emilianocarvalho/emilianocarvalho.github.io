@@ -19,7 +19,7 @@ var disqus_config = function () {
   this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
   this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
-{% endhighlight %}
+{% endhighlight javascript %}
 
 Mas ao definir com as variáveis do Jekyll configuradas para minha Github Pages
 
@@ -28,7 +28,7 @@ var disqus_config = function () {
   this.page.url = '{{ site.url }}{{ site.baseurl }}{{ page.url }}';
   this.page.identifier = '{{ page.url }}';
 };
-{% endhighlight %}
+{% endhighlight javascript %}
 
 não passou a reconhecer, apresentando a mensagem acima "We were unable to load Disqus."
 
