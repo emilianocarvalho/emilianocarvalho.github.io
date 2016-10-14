@@ -8,9 +8,9 @@ date: "2016-10-11 23:33:37 -0300"
 
 Antes de tudo, pra quem não esta familiarizado com o mundo open-source, [fork][1] é uma bifurcação de um projeto de software, quando disponibilizado pelo criador ou equipe de desenvolvimento que normalmente compartilham seu código fonte original. Você tem que fazer isso se quiser contribuir com o projeto.
 
-A idéia aqui é definir não apenas como sincronizar com o projeto original, mas principalmento um roteiro de atualização diária, de forma que tanto o seu projeto quando o original fiquem atualizados.
+A idéia aqui é definir não apenas como sincronizar com o projeto original, mas principalmento um roteiro de atualização diária, de forma que, tanto o seu projeto local quando o original fiquem atualizados.
 
-### As etapas para que se tenha automatizado esse processo de pelo seu projeto "copiado"
+### As etapas para que se mantenha atualizado o projeto "copiado"
 
 1. Entrar no github e no projeto que você deseja contribuir clicar no botão `Fork a Project` ![Fork a project](images/fork-github.png)
 2. Clonar o repositório na sua máquina `git clone <repositório>`
@@ -25,7 +25,7 @@ A idéia aqui é definir não apenas como sincronizar com o projeto original, ma
 9. Seguir sua rotina de versionamento usando `git status, add, commit e push`
 10. Submeter para o repositório original as alterações feitas no seu repositório local que você acabou de subir para o Github realizando um [Pull Request][2]
 
-> Mesclar (merge) as alterações do **repositório-original / master** em seu branch master local faz com que seu **branch master fork** em sincronismo com o **repositório original**, sem perder as suas alterações locais
+> Mesclar (merge) as alterações do **repositório-original / master** em seu branch master local faz com que seu **branch master fork** local em sincronismo com o **repositório original**, sem perder as suas alterações locais
 
 A seguir vejam os passos que devem ser seguidos para mantê-lo atualizado na sua rotina diária.
 
@@ -33,7 +33,14 @@ A seguir vejam os passos que devem ser seguidos para mantê-lo atualizado na sua
 
 Depois de ter seguido o roteiro para realizar sua atualização inicial vamos para o roteiro que deve ser usado no dia a dia para sempre manter seu código atualizado.
 
-Abra o terminal, ou Git Bash (Windows).
+<dl>
+<dt>Início das atividades</dt>
+<dd>Após você ter executado seu `git push origin master` e ter submetido suas alterações ao repositório original com o `New Pull Request` você deve checar se houveram alterações no repositório original de forma a não deixar o seu branch master local desatualizado. Então deve seguir os seguintes passos:</dd></dl>
+1. Busque se há alguma alteração no repositório original com
+  + `git fetch <nome-para-o-repositório-original`
+2. Faça um "merge" do repositório original com o seu local para ficarem atualizados
+  + `git merge <nome-para-o-repositório-original>/master`
+
 
 Veja quais repositórios remotos você tem configurado.
 {% highlight javascript %}
