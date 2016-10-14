@@ -22,11 +22,10 @@ A idéia aqui é definir não apenas como sincronizar com o projeto original, ma
 7. Cheque o seu fork local `git checkout master`
 8. Agora você faz um "merge" entre o repositório original e o seu local
   - `git merge <nome-para-o-repositório-original>/master`
-
-> Mesclar (merge) as alterações do **repositório-original / master** em seu branch master local faz com que seu **branch master fork** em sincronismo com o **repositório original**, sem perder as suas alterações locais.
-
 9. Seguir sua rotina de versionamento usando `git status, add, commit e push`
-10. Submeter para o repositório original as alterações feitas no seu repositório local que você acabou de subir para o Github realizando um [Pull Request][2] 
+10. Submeter para o repositório original as alterações feitas no seu repositório local que você acabou de subir para o Github realizando um [Pull Request][2]
+
+> Mesclar (merge) as alterações do **repositório-original / master** em seu branch master local faz com que seu **branch master fork** em sincronismo com o **repositório original**, sem perder as suas alterações locais
 
 A seguir vejam os passos que devem ser seguidos para mantê-lo atualizado na sua rotina diária.
 
