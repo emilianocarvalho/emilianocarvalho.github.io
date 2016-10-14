@@ -42,17 +42,5 @@ Depois de ter seguido o roteiro para realizar sua atualização inicial vamos pa
   + `git merge <nome-para-o-repositório-original>/master`
 
 
-Veja quais repositórios remotos você tem configurado.
-{% highlight javascript %}
-$ git remote -v
-origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
-origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
-{% endhighlight javascript %}
-
-
-### Como resolver
-
-
-
 [1]: https://pt.wikipedia.org/wiki/Bifurca%C3%A7%C3%A3o "Fork"
 [2]: https://help.github.com/articles/creating-a-pull-request/ "Pull Request"
