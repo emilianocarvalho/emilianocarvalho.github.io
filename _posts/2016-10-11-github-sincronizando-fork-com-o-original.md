@@ -23,7 +23,7 @@ A idéia aqui é definir não apenas como sincronizar com o projeto original, ma
 8. Agora você faz um "merge" entre o repositório original e o seu local
   - `git merge <nome-para-o-repositório-original>/master`
 
-> Mesclar as alterações do repositório-original / master em seu branch master local. Isso faz com que seu branch master fork em sincronismo com o repositório original, sem perder as suas alterações locais.
+> Mesclar as alterações do **repositório-original / master** em seu branch master local. Isso faz com que seu **branch master fork** em sincronismo com o **repositório original**, sem perder as suas alterações locais.
 
 A seguir vejam os passos que devem ser seguidos para configurar bem o seu fork.
 
