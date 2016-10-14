@@ -8,7 +8,7 @@ date: "2016-10-11 23:33:37 -0300"
 
 Antes de tudo, pra quem não esta familiarizado com o mundo open-source, [fork][1] é uma bifurcação de um projeto de software, quando disponibilizado pelo criador ou equipe de desenvolvimento que normalmente compartilham seu código fonte original. Você tem que fazer isso
 
-As etapas para que se tenha automatizado esse processo de pelo seu projeto "copiado", podemos dizer dessa forma, seria entrar no github e no projeto que você deseja contribuir clicar no botão `Fork a Project`.
+As etapas para que se tenha automatizado esse processo de pelo seu projeto "copiado", podemos dizer dessa forma, seria entrar no github e no projeto que você deseja contribuir clicar no botão `Fork a Project`. ![Fork a project](images/fork-github.png)
 
 A seguir vejam os passos que devem ser seguidos para configurar bem o seu fork.
 
@@ -17,7 +17,7 @@ A seguir vejam os passos que devem ser seguidos para configurar bem o seu fork.
 
 Primeiro faça o controle do projeto original.
 
-Abra o terminal, o Git Bash (Windows).
+Abra o terminal, ou Git Bash (Windows).
 
 Veja quais repositórios remotos você tem configurado.
 {% highlight javascript %}
