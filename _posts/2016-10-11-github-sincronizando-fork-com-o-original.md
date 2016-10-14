@@ -12,18 +12,18 @@ A idéia aqui é definir não apenas como sincronizar com o projeto original, ma
 
 As etapas para que se tenha automatizado esse processo de pelo seu projeto "copiado", podemos dizer dessa forma, seria:
 
-1. Entrar no github e no projeto que você deseja contribuir clicar no botão `Fork a Project`. ![Fork a project](images/fork-github.png);
+1. Entrar no github e no projeto que você deseja contribuir clicar no botão `Fork a Project`. ![Fork a project](images/fork-github.png)
 
-2. Clonar o repositório na sua máquina `git clone <repositório>`;
+2. Clonar o repositório na sua máquina `git clone <repositório>`
 
-3. Verificar os remotes adicionados `git remote -v`;
+3. Verificar os remotes adicionados `git remote -v`
 
 4. Adicionar o repositório "forkado" do projeto disponibilizado pelo criador ou equipe de desenvolvimento.
-   * `git remote add <nome-para-o-repositório-original> <repositório-original>`;
+   * `git remote add <nome-para-o-repositório-original> <repositório-original>`
 
-5. Verifique novamente os remotes adicionados e veja se ele foi adicionado `git remote -v`;
+5. Verifique novamente os remotes adicionados e veja se ele foi adicionado `git remote -v`
 
-6. Busque se há alguma atualização no repositório original `git fetch <repositório-original>`;
+6. Busque se há alguma atualização no repositório original `git fetch <repositório-original>`
 
 
 A seguir vejam os passos que devem ser seguidos para configurar bem o seu fork.
