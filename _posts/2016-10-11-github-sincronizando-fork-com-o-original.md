@@ -23,14 +23,16 @@ A idéia aqui é definir não apenas como sincronizar com o projeto original, ma
 8. Agora você faz um "merge" entre o repositório original e o seu local
   - `git merge <nome-para-o-repositório-original>/master`
 
-> Mesclar as alterações do **repositório-original / master** em seu branch master local. Isso faz com que seu **branch master fork** em sincronismo com o **repositório original**, sem perder as suas alterações locais.
+> Mesclar (merge) as alterações do **repositório-original / master** em seu branch master local faz com que seu **branch master fork** em sincronismo com o **repositório original**, sem perder as suas alterações locais.
 
-A seguir vejam os passos que devem ser seguidos para configurar bem o seu fork.
+9. Seguir sua rotina de versionamento usando `git status, add, commit e push`
+10. Submeter para o repositório original as alterações feitas no seu repositório local que você acabou de subir para o Github realizando um [Pull Request][2] 
 
+A seguir vejam os passos que devem ser seguidos para mantê-lo atualizado na sua rotina diária.
 
-### Configurar o remote
+### Rotina de trabalho
 
-Primeiro faça o controle do projeto original. Estou presupondo que você já clonou seu repositório na sua máquina e vai começar a desenvolver.
+Depois de ter seguido o roteiro para realizar sua atualização inicial vamos para o roteiro que deve ser usado no dia a dia para sempre manter seu código atualizado.
 
 Abra o terminal, ou Git Bash (Windows).
 
@@ -47,3 +49,4 @@ origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
 
 
 [1]: https://pt.wikipedia.org/wiki/Bifurca%C3%A7%C3%A3o "Fork"
+[2]: https://help.github.com/articles/creating-a-pull-request/ "Pull Request"
