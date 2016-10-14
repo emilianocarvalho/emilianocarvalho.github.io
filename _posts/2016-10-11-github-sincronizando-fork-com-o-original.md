@@ -19,7 +19,11 @@ A idéia aqui é definir não apenas como sincronizar com o projeto original, ma
   - `git remote add <nome-para-o-repositório-original> <repositório-original>`
 5. Verifique novamente os remotes adicionados e veja se ele foi adicionado `git remote -v`
 6. Busque se há alguma atualização no repositório original `git fetch <repositório-original>`.
+7. Cheque o seu fork local `git checkout master`
+8. Agora você faz um "merge" entre o repositório original e o seu local
+  - `git merge <nome-para-o-repositório-original>/master`
 
+> Mesclar as alterações do repositório-original / master em seu branch master local. Isso faz com que seu branch master fork em sincronismo com o repositório original, sem perder as suas alterações locais.
 
 A seguir vejam os passos que devem ser seguidos para configurar bem o seu fork.
 
