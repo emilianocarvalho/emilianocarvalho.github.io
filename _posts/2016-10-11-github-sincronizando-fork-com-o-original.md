@@ -35,7 +35,7 @@ Depois de ter seguido o roteiro para realizar sua atualização inicial vamos pa
 
 <dl>
 <dt>Início das atividades</dt>
-<dd>Após você ter executado seu `git push origin master` e ter submetido suas alterações ao repositório original com o `New Pull Request` você deve checar se houveram alterações no repositório original de forma a não deixar o seu branch master local desatualizado. Então deve seguir os seguintes passos:</dd></dl>
+<dd>Após você ter executado seu `git push origin master` e ter submetido suas alterações ao repositório original com o `New Pull Request`, **no dia anterior**,  você deve checar se houveram alterações no repositório original de forma a não deixar o seu branch master local desatualizado. Então deve seguir os seguintes passos:</dd></dl>
 1. Busque se há alguma alteração no repositório original com
   + `git fetch <nome-para-o-repositório-original`
 2. Faça um "merge" do repositório original com o seu local para ficarem atualizados
