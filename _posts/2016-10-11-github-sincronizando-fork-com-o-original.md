@@ -29,7 +29,7 @@ A idéia aqui é definir não apenas como sincronizar com o projeto original, ma
 
 A seguir vejam os passos que devem ser seguidos para mantê-lo atualizado na sua rotina diária.
 
-### Rotina de trabalho
+## Rotina de trabalho
 
 Depois de ter seguido o roteiro para realizar sua atualização inicial vamos para o roteiro que deve ser usado no dia a dia para sempre manter seu código atualizado.
 
@@ -41,6 +41,8 @@ Depois de ter seguido o roteiro para realizar sua atualização inicial vamos pa
 2. Faça um "merge" do repositório original com o seu local para ficarem atualizados
   + `git merge <nome-para-o-repositório-original>/master`
 
+### Final do dia
+... 
 
 [1]: https://pt.wikipedia.org/wiki/Bifurca%C3%A7%C3%A3o "Fork"
 [2]: https://help.github.com/articles/creating-a-pull-request/ "Pull Request"
