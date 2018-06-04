@@ -4,8 +4,6 @@ title: "Nenhuma bala de prata: essência e acidentes de engenharia de software"
 date: "2018-06-04 10:52:37 -0300"
 ---
 
-### Nenhuma bala de prata: essência e acidentes de engenharia de software
-
 ## por Frederick P. Brooks, Jr. 
 De todos os monstros que preenchem os pesadelos do nosso folclore, nenhum aterroriza mais do que os lobisomens, porque eles se transformam inesperadamente do familiar em horrores. Para estes, busca-se balas de prata que magicamente podem pô-las em repouso.
 O projeto de software familiar, pelo menos como visto pelo gerente não técnico, tem algo desse caráter; é geralmente inocente e direto, mas é capaz de se tornar um monstro de horários perdidos, orçamentos inflados e produtos defeituosos. Então, ouvimos gritos desesperados por uma bala de prata - algo para fazer os custos de software caírem tão rapidamente quanto os custos de hardware de computador.
