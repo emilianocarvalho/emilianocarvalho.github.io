@@ -274,8 +274,7 @@ Tabela 1. Vs excitantes.
 
 Produtos de software úteis mas não excitantes.
 ---------------------------------------------
-Emocionante           | Produtos
-sim                   | Não
+Emocionante Sim       | Produtos Não
 ----------------------|----------------------
 Unix                  | Cobol
 APL                   | PL/I
