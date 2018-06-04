@@ -271,17 +271,19 @@ Portanto, embora eu apoie fortemente os esforços de transferência de tecnologi
 Nenhuma organização de software pode ignorar esse desafio. Bons gerentes, por mais escassos que sejam, não são mais escassos do que bons designers. Grandes designers e grandes gerentes são ambos muito raros. A maioria das organizações gasta esforços consideráveis ​​para encontrar e cultivar as perspectivas de gestão; Não conheço ninguém que gaste um esforço igual para encontrar e desenvolver os grandes projetistas dos quais a excelência técnica dos produtos dependerá.
 
 Tabela 1. Vs excitantes. 
+
 Produtos de software úteis mas não excitantes.
 ---------------------------------------------
 Emocionante | Produtos
+------------|---------
        sim  | Não
 ------------|---------
 Unix | Cobol
-APL	| PL/I
+APL | PL/I
 Pascal | Algol
 Modula | MVS / 370
 Conversa fiada | MS-DOS
-Fortran |
+Fortran | nenhuma
 
 
 Minha primeira proposta é que cada organização de software deve determinar e proclamar que os grandes projetistas são tão importantes para o seu sucesso quanto os grandes gerentes, e que se espera que sejam igualmente nutridos e recompensados. Não apenas o salário, mas as gratificações de reconhecimento - tamanho do escritório, mobília, equipamento técnico pessoal, fundos de viagem, suporte de pessoal - devem ser totalmente equivalentes.
