@@ -178,7 +178,7 @@ Em segundo lugar, as telas de hoje são muito pequenas, em pixels, para mostrar 
 
 Mais fundamentalmente, como argumentei acima, o software é muito difícil de visualizar. Seja um fluxo de controle de diagramas, aninhamento de escopo variável, referências cruzadas variáveis, fluxo de dados, estruturas de dados hierárquicas ou qualquer outra coisa, a pessoa sente apenas uma dimensão do elefante de software intrinsecamente intertravado. Se alguém sobrepor todos os diagramas gerados pelas muitas visualizações relevantes, será difícil extrair qualquer visão global. A analogia do VLSI é fundamentalmente enganosa - um design de chip é uma descrição bidimensional em camadas cuja geometria reflete sua realização em 3-espaços. Um sistema de software não é.
 
-###Verificação do programa 
+### Verificação do programa 
 Grande parte do esforço na programação moderna entra em testes e no reparo de bugs. Há talvez uma bala de prata a ser encontrada, eliminando os erros na fonte, na fase de projeto do sistema? A produtividade e a confiabilidade do produto podem ser radicalmente aprimoradas seguindo a estratégia profundamente diferente de provar os projetos corretos antes que o imenso esforço seja aplicado na implementação e no teste dos mesmos?
 
 Eu não acredito que vamos encontrar mágica de produtividade aqui. A verificação do programa é um conceito muito poderoso, e será muito importante para coisas como kernels seguros de sistemas operacionais. A tecnologia não promete, no entanto, economizar mão de obra. As verificações são muito trabalhosas que apenas alguns programas substanciais já foram verificados.
@@ -274,16 +274,16 @@ Nenhuma organização de software pode ignorar esse desafio. Bons gerentes, por 
 
 Tabela 1. Vs excitantes. 
 Produtos de software úteis mas não excitantes.
-----------------------------------------------
-Emocionante	| Produtos
-       sim	| Não
+----------------------
+Emocionante | Produtos
+       sim  | Não
 ------------|---------
 Unix | Cobol
 APL	| PL/I
 Pascal | Algol
 Modula | MVS / 370
 Conversa fiada | MS-DOS
-Fortran | 
+Fortran | ...
 
 Minha primeira proposta é que cada organização de software deve determinar e proclamar que os grandes projetistas são tão importantes para o seu sucesso quanto os grandes gerentes, e que se espera que sejam igualmente nutridos e recompensados. Não apenas o salário, mas as gratificações de reconhecimento - tamanho do escritório, mobília, equipamento técnico pessoal, fundos de viagem, suporte de pessoal - devem ser totalmente equivalentes.
 
@@ -297,30 +297,30 @@ Como crescer grandes designers? O espaço não permite uma longa discussão, mas
 ## Agradecimentos
 
 Agradeço a Gordon Bell, a Bruce Buchanan, a Rick Hayes-Roth, a Robert Patrick e, principalmente, a David Parnas por seus insights e idéias estimulantes, ea Rebekah Bierly pela produção técnica deste artigo.
+
 REFERÊNCIAS
-[1]
-DL Parnas, "Projetando Software para Facilidade de Extensão e Contração ", IEEE Transactions on Software Engineering , vol. 5, n ° 2, março de 1979, pp. 128-38.
-[2]
-G. Booch, "Design Orientado a Objetos", Engenharia de Software com Ada , 1983, Menlo Park, Califórnia: Benjamin / Cummings.
-[3]
-Transações IEEE em Engenharia de Software (edição especial sobre inteligência artificial e engenharia de software), l. Mostow, guest ed., Vol. 11, n 11, novembro de 1985.
-[4]
-DL Parnas, "Aspectos de Software de Sistemas Estratégicos de Defesa:" American Scientist , novembro de 1985.
-[5]
-R. Balzer, "Uma perspectiva de 15 anos em programação automática", IEEE Transactions on Software Engineering (edição especial sobre inteligência artificial e engenharia de software), J. Mostow, guest ed., Vol. 11, n. 11 (novembro de 1985), pp. 1257-67.
-[6]
-Computer (edição especial em programação visual), RB Graphton e T. Ichikawa, guest eds., Vol. 18, n ° 8, agosto de 1985.
-[7]
-G. Raeder, "Uma pesquisa de técnicas de programação gráficas atuais", Computer (edição especial em programação visual), RB Graphton e T. Ichikawa, eds. De convidado, vol. 18, n ° 8, agosto de 1985, pp. 11-25.
-[8]
-FP Brooks, Mês do Homem Mítico , Leitura, Missa: Addison-Wesley, 1975, Capítulo 14.
-[9]
-Conselho de Ciência da Defesa, Relatório da Força Tarefa sobre Software Militar na imprensa.
-[10]
-HD Mills, "Programação Top-Down em Grandes Sistemas", em Técnicas de Depuração em Grandes Sistemas , R. Ruskin, org., Englewood Cliffs, NJ: Prentice-Hall, 1971.
-[11]
-BW Boehm, "Um modelo espiral de desenvolvimento e aprimoramento de software", 1985, Relatório Técnico TRW 21-371-85, TRW, Inc., 1 Space Park, Redondo Beach, Califórnia 90278.
-[12]
-H. Sackman, WJ Erikson, e EE Grant, "Estudos Experimentais Exploratórios Comparando o Desempenho de Programação Online e Offline", Comunicações do ACM , vol. 11, n ° 1 (janeiro de 1968), pp. 3-11.
+[1] DL Parnas, "Projetando Software para Facilidade de Extensão e Contração ", IEEE Transactions on Software Engineering , vol. 5, n ° 2, março de 1979, pp. 128-38.
+
+[2] G. Booch, "Design Orientado a Objetos", Engenharia de Software com Ada , 1983, Menlo Park, Califórnia: Benjamin / Cummings.
+
+[3] Transações IEEE em Engenharia de Software (edição especial sobre inteligência artificial e engenharia de software), l. Mostow, guest ed., Vol. 11, n 11, novembro de 1985.
+
+[4] DL Parnas, "Aspectos de Software de Sistemas Estratégicos de Defesa:" American Scientist , novembro de 1985.
+
+[5] R. Balzer, "Uma perspectiva de 15 anos em programação automática", IEEE Transactions on Software Engineering (edição especial sobre inteligência artificial e engenharia de software), J. Mostow, guest ed., Vol. 11, n. 11 (novembro de 1985), pp. 1257-67.
+
+[6] Computer (edição especial em programação visual), RB Graphton e T. Ichikawa, guest eds., Vol. 18, n ° 8, agosto de 1985.
+
+[7] G. Raeder, "Uma pesquisa de técnicas de programação gráficas atuais", Computer (edição especial em programação visual), RB Graphton e T. Ichikawa, eds. De convidado, vol. 18, n ° 8, agosto de 1985, pp. 11-25.
+
+[8] FP Brooks, Mês do Homem Mítico , Leitura, Missa: Addison-Wesley, 1975, Capítulo 14.
+
+[9] Conselho de Ciência da Defesa, Relatório da Força Tarefa sobre Software Militar na imprensa.
+
+[10] HD Mills, "Programação Top-Down em Grandes Sistemas", em Técnicas de Depuração em Grandes Sistemas , R. Ruskin, org., Englewood Cliffs, NJ: Prentice-Hall, 1971.
+
+[11] BW Boehm, "Um modelo espiral de desenvolvimento e aprimoramento de software", 1985, Relatório Técnico TRW 21-371-85, TRW, Inc., 1 Space Park, Redondo Beach, Califórnia 90278.
+
+[12] H. Sackman, WJ Erikson, e EE Grant, "Estudos Experimentais Exploratórios Comparando o Desempenho de Programação Online e Offline", Comunicações do ACM , vol. 11, n ° 1 (janeiro de 1968), pp. 3-11.
 
 Brooks, Frederick P., "Nenhuma bala de prata: Essência e acidentes de engenharia de software" , Computer , vol. 20, n ° 4 (abril 1987) p. 10-19.
